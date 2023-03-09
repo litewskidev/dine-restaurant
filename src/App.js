@@ -1,7 +1,11 @@
+import Booking from "./components/Booking/Booking";
+import Home from "./components/Home/Home";
+
 const App = () => {
   return (
     <main>
-      <h1>dine restaurant</h1>
+      <Home />
+      <Booking />
     </main>
   );
 };

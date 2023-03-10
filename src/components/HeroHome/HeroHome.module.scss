@@ -22,16 +22,16 @@
 .header__description {
   display: flex;
   flex-direction: column;
-
-  h1 {
-    font-weight: 300;
-    font-size: 5rem;
-    line-height: 5rem;
-    margin-bottom: 10px;
-  }
 }
 
-p {
+.header__h1 {
+  font-weight: 300;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 10px;
+}
+
+.header__p {
   max-width: 28rem;
   font-size: 1.26*$base-size;
   font-weight: 300;

@@ -1,0 +1,39 @@
+@import '../../styles/settings.scss';
+
+.header {
+  max-width: 100%;
+  min-height: 51.25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 10%;
+  padding-top: 2rem;
+
+  background: url('../../images/homepage/hero-bg-desktop.jpg');
+  color: $white;
+}
+
+.header__title{
+  font-size: 3rem;
+  margin-bottom: 3em;
+}
+
+.header__description {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-weight: 300;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 10px;
+  }
+}
+
+p {
+  max-width: 28rem;
+  font-size: 1.26*$base-size;
+  font-weight: 300;
+  line-height: 2rem;
+}

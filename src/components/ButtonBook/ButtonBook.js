@@ -4,7 +4,7 @@ import styles from './ButtonBook.module.scss';
 const ButtonBook = props => {
   return(
     <Link to='/booking'>
-      <button>{props.children}</button>
+      <button className={styles.btn}>{props.children}</button>
     </Link>
   );
 };

@@ -11,7 +11,7 @@ const Enjoyable = () => {
           <img className={styles.pattern} src={pattern} alt="" />
           <div>
             <h2 className="text__L">
-              Enjoyable place <br />
+              Enjoyable place<br />
               for all the family
             </h2>
             <p className="p__text">

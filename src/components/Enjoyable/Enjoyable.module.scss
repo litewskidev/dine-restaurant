@@ -1,12 +1,33 @@
 @import '../../styles/settings.scss';
 
-.enjoy__p {
-    max-width: 28rem;
-    font-size: 1.27*$base-size;
-    font-weight: 300;
-    line-height: 1.6rem;
+.enjoy {
+  max-width: 100%;
+  background: url("../../images/patterns/pattern-curve-top-right.svg") no-repeat;
+  background-position: bottom left;
+  background-position-y: 75%;
 }
 
-.enjoy__h2 {
-  font-size: 3rem;
+.enjoy__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .enjoy__description {
+    max-width: 30rem;
+
+    h2 {
+      margin: 1rem 0;
+      margin-top: 4rem;
+    }
+  }
+}
+
+.enjoy__img {
+  background: url("../../images/homepage/enjoyable-place-desktop.jpg");
+  filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.5));
+
+  flex-basis: 33.5rem;
+  height: 44.5rem;
+  margin-top: -3.1rem;
+  margin-left: 3.1rem;
 }

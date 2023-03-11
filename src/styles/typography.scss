@@ -4,3 +4,27 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+.head__text {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+
+.p__text {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.text__M {
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.text__L {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3rem;
+}

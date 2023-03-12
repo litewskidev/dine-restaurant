@@ -17,7 +17,7 @@ const HeroHome = () => {
           of our farmhouse.
         </p>
       </div>
-      <ButtonBook>Book a table</ButtonBook>
+      <ButtonBook class='white'>Book a table</ButtonBook>
     </header>
   );
 };

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import styles from './ButtonBook.module.scss';
+import './ButtonBook.scss';
 
 const ButtonBook = props => {
   return(
     <Link to='/booking'>
-      <button className={styles.btn}>{props.children}</button>
+      <button className={`btn ${props.class}`}>{props.children}</button>
     </Link>
   );
 };

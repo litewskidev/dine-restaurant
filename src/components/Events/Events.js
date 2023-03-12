@@ -19,7 +19,7 @@ const Events = () => {
               <p className='p__text'>We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.</p>
             </div>
           </div>
-          <ButtonBook>Book a table</ButtonBook>
+          <ButtonBook class='black'>Book a table</ButtonBook>
           <div className={styles.events__buttons}>
             <button className={styles.nav}>Family Gathering</button>
             <button className={styles.nav}>Special Events</button>

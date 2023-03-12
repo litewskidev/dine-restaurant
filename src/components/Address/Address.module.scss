@@ -1,3 +1,36 @@
+@import '../../styles/settings.scss';
+
 .address {
+  padding: 0 10%;
+  max-width: 100%;
+  height: 15rem;
+  display: grid;
+  place-items: center;
+  background: $cod-gray;
+  color: $white;
+
+  h2 {
+    font-size: 3rem;
+    position: relative;
+    right: 13rem;
+  }
+
+  p {
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: $font-text;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+}
+
+.address__content {
   display: flex;
+  justify-content: space-between;
+}
+
+.address__contact {
+  display: flex;
+  gap: 13.5rem;
 }

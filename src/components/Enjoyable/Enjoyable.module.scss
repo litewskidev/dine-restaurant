@@ -4,13 +4,14 @@
   max-width: 100%;
   background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
   background-position: bottom left;
-  background-position-y: 75%;
+  background-position-y: 82%;
 }
 
 .enjoy__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 10%;
 
   .enjoy__description {
     max-width: 30rem;
@@ -27,7 +28,6 @@
   filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.5));
 
   flex-basis: 33.5rem;
-  height: 44.5rem;
-  margin-top: -3.1rem;
-  margin-left: 3.1rem;
+  height: 45rem;
+  margin-top: -4.1rem;
 }

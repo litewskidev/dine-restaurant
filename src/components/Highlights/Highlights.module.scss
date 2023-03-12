@@ -1,0 +1,89 @@
+@import '../../styles/settings.scss';
+
+.highlights {
+  max-width: 100%;
+  background-color: $cod-gray;
+  color: $white;
+  height: 47rem;
+  display: grid;
+  align-items: center;
+}
+
+.highlights__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.highlights__description {
+  max-width: 30rem;
+  margin-bottom: 6rem;
+
+    h2 {
+      margin: 1rem 0;
+      margin-top: 4rem;
+    }
+}
+
+.highlights__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+.icon {
+  background: url(../../images/icons/icon-minus.svg);
+  max-width: 100%;
+  height: 0.06rem;
+  margin: 1.6rem 0;
+}
+
+.highlights__list__el {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlights__list__el__info {
+  max-width: 24rem;
+  display: grid;
+  align-items: center;
+}
+
+.highlights__list__images {
+  display: flex;
+}
+
+.highlights__list__img__1 {
+  background: url(../../images/homepage/salmon-desktop-tablet@2x.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 6rem;
+}
+
+.highlights__list__img__2 {
+  background: url(../../images/homepage/beef-desktop-tablet@2x.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 6rem;
+}
+
+.highlights__list__img__3 {
+  background: url(../../images/homepage/chocolate-desktop-tablet@2x.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 10rem;
+  height: 6rem;
+}
+
+.highlights__list_line {
+  background: url(../../images/icons/icon-minus.svg) no-repeat;
+  width: 20%;
+  height: 0.01rem;
+  margin-right: 1.2rem;
+  margin-top: 1.26rem;
+  background-position: center;
+  background-size: cover;
+}

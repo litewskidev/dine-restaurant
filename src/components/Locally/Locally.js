@@ -8,7 +8,6 @@ const Locally = () => {
       <div className={styles.locally__content}>
         <div className={styles.locally__description}>
           <img className={styles.pattern} src={pattern} alt='' />
-
           <div>
             <h2 className='text__L'>
               The most locally<br />

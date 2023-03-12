@@ -6,9 +6,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .head__text {
-  font-weight: 600;
-  font-size: 1.1rem;
-  line-height: 3rem;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 .p__text {
@@ -27,4 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-size: 3rem;
   line-height: 3rem;
+}
+
+.p__list {
+  font-size: 0.98rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.5rem;
 }

@@ -4,7 +4,7 @@
   max-width: 100%;
   background-color: $cod-gray;
   color: $white;
-  height: 47rem;
+  min-height: 47rem;
   display: grid;
   align-items: center;
 }
@@ -45,7 +45,7 @@
 }
 
 .highlights__list__el__info {
-  max-width: 24rem;
+  width: 24rem;
   display: grid;
   align-items: center;
 }
@@ -81,7 +81,7 @@
 .highlights__list_line {
   background: url(../../images/icons/icon-minus.svg) no-repeat;
   width: 20%;
-  height: 0.01rem;
+  height: 0.03rem;
   margin-right: 1.2rem;
   margin-top: 1.26rem;
   background-position: center;

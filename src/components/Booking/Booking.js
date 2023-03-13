@@ -9,10 +9,10 @@ const Booking = () => {
     <main>
       <div className={styles.booking}>
         <HeroBooking />
-        <BookingForm />
       </div>
       <div className={styles.booking__img}>
         <img className={styles.pattern__lines} src={pattern__lines} alt='' />
+        <BookingForm />
       </div>
       <Address />
     </main>

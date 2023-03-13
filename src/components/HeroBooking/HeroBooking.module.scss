@@ -7,11 +7,12 @@
   gap: 15px;
   padding-top: 3rem;
   color: $white;
-}
 
-.herobooking__title {
-  font-size: 3rem;
-  margin-bottom: 3em;
+  h2 {
+    font-size: 3rem;
+    color: $white;
+    margin-bottom: 9rem;
+  }
 }
 
 .herobooking__description {

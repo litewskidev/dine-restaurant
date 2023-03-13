@@ -1,4 +1,4 @@
-import NumInput from '../../utils/NumInput/NumInput';
+import NumInput from '../NumInput/NumInput';
 import styles from './BookingForm.module.scss';
 
 const BookingForm = () => {
@@ -25,7 +25,6 @@ const BookingForm = () => {
         <NumInput />
         <input type='submit' value='Make Reservation' className={styles.black} />
       </form>
-
     </div>
   );
 };

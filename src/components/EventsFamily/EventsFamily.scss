@@ -1,5 +1,9 @@
 @import '../../styles/settings.scss';
 
+.event__display {
+  display: none;
+}
+
 .events {
   padding: 10% 0;
   max-width: 100%;
@@ -9,7 +13,7 @@
   background-position-x: -23rem;
 }
 
-.events__content__img {
+.events__content__img__family {
   background: url(../../images/homepage/family-gathering-desktop.jpg);
   filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.5));
   flex-basis: 33.7rem;

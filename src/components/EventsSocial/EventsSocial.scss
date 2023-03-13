@@ -1,0 +1,66 @@
+@import '../../styles/settings.scss';
+
+.event__display {
+  display: none;
+}
+
+.events {
+  padding: 10% 0;
+  max-width: 100%;
+
+  background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
+  background-position: top left;
+  background-position-x: -23rem;
+}
+
+.events__content__img__social {
+  background: url(../../images/homepage/social-events-desktop.jpg);
+  filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.5));
+  flex-basis: 33.7rem;
+  height: 37.5rem;
+  position: relative;
+
+  .pattern__lines {
+    position: absolute;
+    left: -3rem;
+    top: -2.4rem;
+  }
+}
+
+.events__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+
+  .events__description {
+    max-width: 30rem;
+    margin-bottom: 3rem;
+
+    h2 {
+      margin: 1rem 0;
+      margin-top: 4rem;
+    }
+  }
+}
+
+.events__buttons {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 11.2rem;
+  gap: 1.5rem;
+  }
+
+.nav {
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  word-spacing: 0.188rem;
+  letter-spacing: 0.125rem;
+  font-family: $font-text;
+  font-size: 1rem;
+}

@@ -20,7 +20,10 @@ const EventsSpecial = (props) => {
             <ButtonBook class='black'>Book a table</ButtonBook>
             <div className='events__buttons__special'>
               <button id='btn-family' onClick={props.click} className='nav__special'>Family Gathering</button>
-              <button id='btn-special' onClick={props.click} className='nav__special'>Special Events</button>
+              <div className='button__line'>
+                <img src={pattern__lines} alt='' />
+                <button id='btn-special' onClick={props.click} className='nav__special__active'>Special Events</button>
+              </div>
               <button id='btn-social' onClick={props.click} className='nav__special'>Social Events</button>
             </div>
           </div>

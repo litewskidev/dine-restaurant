@@ -21,7 +21,10 @@ const EventsSocial = (props) => {
             <div className='events__buttons__social'>
               <button id='btn-family' onClick={props.click} className='nav__social'>Family Gathering</button>
               <button id='btn-special' onClick={props.click} className='nav__social'>Special Events</button>
-              <button id='btn-social' onClick={props.click} className='nav__social'>Social Events</button>
+              <div className='button__line'>
+                <img src={pattern__lines} alt='' />
+                <button id='btn-social' onClick={props.click} className='nav__social__active'>Social Events</button>
+              </div>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import EventsSpecial from '../EventsSpecial/EventsSpecial';
 const Events = () => {
 
   const handleClick = e => {
+    e.preventDefault();
     const id = (e.target.id);
     const family = document.querySelector('#event-family');
     const special = document.querySelector('#event-special');

@@ -7,6 +7,7 @@
 .events__social {
   padding: 10% 0;
   max-width: 100%;
+  //height: 57.5rem;
 
   background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
   background-position: top left;
@@ -63,4 +64,26 @@
   letter-spacing: 0.125rem;
   font-family: $font-text;
   font-size: 1rem;
+  color: $light-gray;
+}
+
+.nav__social__active {
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  word-spacing: 0.188rem;
+  letter-spacing: 0.125rem;
+  font-family: $font-text;
+  font-size: 1rem;
+}
+
+.button__line {
+  display: flex;
+  align-items: center;
+    img {
+      margin-left: -10rem;
+      height: 0.1rem;
+      width: 10rem;
+    }
 }

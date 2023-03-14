@@ -1,13 +1,8 @@
-import { useState } from 'react';
 import styles from './NumInput.module.scss';
 import plus from '../../images/icons/icon-plus.svg';
 import minus from '../../images/icons/icon-minus.svg';
 
 const NumInput = (props) => {
-
-
-
-
   return(
     <div className={styles.numinput}>
       <div className={styles.numinput__content}>

@@ -19,7 +19,10 @@ const EventsFamily = (props) => {
             </div>
             <ButtonBook class='black'>Book a table</ButtonBook>
             <div className='events__buttons__family'>
-              <button id='btn-family' onClick={props.click} className='nav__family'>Family Gathering</button>
+              <div className='button__line'>
+                <img src={pattern__lines} alt='' />
+                <button id='btn-family' onClick={props.click} className='nav__family__active'>Family Gathering</button>
+              </div>
               <button id='btn-special' onClick={props.click} className='nav__family'>Special Events</button>
               <button id='btn-social' onClick={props.click} className='nav__family'>Social Events</button>
             </div>

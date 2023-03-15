@@ -27,6 +27,17 @@
     font-family: $font-text;
     font-size: 1.3rem;
     font-weight: 300;
+
+    &:focus::placeholder {
+      color: $error;
+    }
+
+    &:focus:invalid {
+      color: $error;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid $error;
+      }
     }
 }
 
@@ -47,23 +58,34 @@
     font-family: $font-text;
     font-size: 1.3rem;
     margin: 2% 1%;
-  }
 
-  select {
-    text-align: center;
-    height: 3rem;
-    width: 5.5rem;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid $shuttle-gray;
-    font-family: $font-text;
-    font-size: 1.3rem;
+    &:focus::placeholder {
+      color: $error;
+    }
 
-    background: url(../../images/icons/icon-arrow.svg) no-repeat;
-    background-position-x: 100%;
-    background-position-y: 50%;
-    appearance: none;
+    &:focus:invalid {
+      color: $error;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid $error;
+      }
   }
+}
+
+.select {
+  text-align: center;
+  height: 3rem;
+  width: 5.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $shuttle-gray;
+  font-family: $font-text;
+  font-size: 1.3rem;
+
+  background: url(../../images/icons/icon-arrow.svg) no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  appearance: none;
 }
 
 .black {

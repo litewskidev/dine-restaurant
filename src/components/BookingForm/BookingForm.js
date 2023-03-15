@@ -71,7 +71,7 @@ const BookingForm = () => {
             required />
         </div>
         <div className={styles.bookingform__numbers}>
-          <p>Pick a date</p>
+          <label>Pick a date</label>
           <input
             onChange={e => setMonth(e.target.value)}
             id='month'
@@ -117,7 +117,7 @@ const BookingForm = () => {
             min={0}
             max={59}
             required />
-          <select
+          <select className={styles.select}
             onChange={e => setMeridiem(e.target.value)}
             id='meridiem'
             value={meridiem}>

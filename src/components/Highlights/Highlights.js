@@ -30,7 +30,7 @@ const Highlights = () => {
                 Seared Salmon Fillet
               </h4>
               <p className='p__list'>
-                Our locally sourced salmon served with a refreshing buckwheat summer salad.
+                Our locally sourced salmon served<br />with a refreshing buckwheat summer salad.
               </p>
             </div>
           </div>

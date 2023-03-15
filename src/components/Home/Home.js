@@ -1,15 +1,14 @@
 import Enjoyable from '../Enjoyable/Enjoyable';
 import Events from '../Events/Events';
 import Footer from '../Footer/Footer';
-import Hero from '../HeroHome/HeroHome';
+import HeroHome from '../HeroHome/HeroHome';
 import Highlights from '../Highlights/Highlights';
 import Locally from '../Locally/Locally';
-import styles from './Home.module.scss';
 
 const Home = () => {
   return(
     <main>
-      <Hero />
+      <HeroHome />
       <Enjoyable />
       <Locally />
       <Highlights />

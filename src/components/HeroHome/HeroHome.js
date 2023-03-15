@@ -16,8 +16,8 @@ const HeroHome = () => {
           surroundings. Eat the freshest produce from the comfort
           of our farmhouse.
         </p>
+        <ButtonBook class='white'>Book a table</ButtonBook>
       </div>
-      <ButtonBook class='white'>Book a table</ButtonBook>
     </header>
   );
 };

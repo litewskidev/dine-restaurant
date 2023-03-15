@@ -2,11 +2,12 @@
 
 .highlights {
   max-width: 100%;
-  background-color: $cod-gray;
-  color: $white;
-  min-height: 47rem;
+  min-height: 47.5rem;
   display: grid;
   align-items: center;
+  background-color: $cod-gray;
+  color: $white;
+  margin-top: -0.9rem;
 }
 
 .highlights__content {
@@ -18,23 +19,23 @@
 
 .highlights__description {
   max-width: 30rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 
     h2 {
-      margin: 1rem 0;
-      margin-top: 4rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
     }
 }
 
 .highlights__list {
   display: flex;
   flex-direction: column;
-  margin-top: 8rem;
+  margin-top: 8.9rem;
 }
 
 .icon {
   background: url(../../images/icons/icon-minus.svg);
-  max-width: 100%;
+  max-width: 93%;
   height: 0.06rem;
   margin: 1.6rem 0;
 }
@@ -48,6 +49,7 @@
   width: 24rem;
   display: grid;
   align-items: center;
+  margin-right: 1.3rem;
 }
 
 .highlights__list__images {
@@ -58,7 +60,7 @@
   background: url(../../images/homepage/salmon-desktop-tablet@2x.jpg);
   background-position: center;
   background-size: cover;
-  width: 10rem;
+  width: 8rem;
   height: 6rem;
 }
 
@@ -66,7 +68,7 @@
   background: url(../../images/homepage/beef-desktop-tablet@2x.jpg);
   background-position: center;
   background-size: cover;
-  width: 10rem;
+  width: 8rem;
   height: 6rem;
 }
 
@@ -74,16 +76,17 @@
   background: url(../../images/homepage/chocolate-desktop-tablet@2x.jpg);
   background-position: center;
   background-size: cover;
-  width: 10rem;
+  width: 8rem;
   height: 6rem;
 }
 
 .highlights__list_line {
   background: url(../../images/icons/icon-minus.svg) no-repeat;
-  width: 20%;
-  height: 0.03rem;
-  margin-right: 1.2rem;
-  margin-top: 1.26rem;
   background-position: center;
   background-size: cover;
+  width: 2rem;
+  height: 0.06rem;
+  margin-right: 1.99rem;
+  margin-left: -0.1rem;
+  margin-top: 1.26rem;
 }

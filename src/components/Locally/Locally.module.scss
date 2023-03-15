@@ -4,21 +4,27 @@
   max-width: 100%;
   background: url(../../images/patterns/pattern-curve-top-left.svg) no-repeat;
   background-position: bottom right;
-  margin-top: 7%;
+  background-position-y: 96%;
+  margin-top: 8.5%;
+  padding: 0 10%;
 }
 
 .locally__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  //padding: 0 10%;
+
+  .pattern {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
   .locally__description {
-    max-width: 30rem;
+    max-width: 29rem;
 
     h2 {
-      margin: 1rem 0;
-      margin-top: 4rem;
+      margin-bottom: 2.2rem;
     }
   }
 }
@@ -30,11 +36,11 @@
   flex-basis: 33.5rem;
   height: 45rem;
   margin-bottom: -4.1rem;
-  position: relative;
+  margin-right: 1.5rem;
 }
 
 .pattern__lines {
   position: absolute;
   right: -22%;
-  top: 40%;
+  top: 39.5%;
 }

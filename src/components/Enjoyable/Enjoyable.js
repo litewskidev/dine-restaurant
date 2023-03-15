@@ -1,6 +1,5 @@
 import styles from './Enjoyable.module.scss';
 import pattern from "../../images/patterns/pattern-divide.svg";
-import React from "react";
 
 const Enjoyable = () => {
   return(

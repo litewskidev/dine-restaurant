@@ -7,11 +7,11 @@
 .events__social {
   padding: 10% 0;
   max-width: 100%;
-  //height: 57.5rem;
+  height: 57.5rem;
 
   background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
   background-position: top left;
-  background-position-x: -23rem;
+  background-position-x: -24rem;
 }
 
 .events__content__img__social {
@@ -20,6 +20,7 @@
   flex-basis: 33.7rem;
   height: 37.5rem;
   position: relative;
+  top: 1rem;
 
   .pattern__lines__social {
     position: absolute;
@@ -36,7 +37,8 @@
 
   .events__description__social {
     max-width: 30rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-right: 0.5rem;
 
     h2 {
       margin: 1rem 0;
@@ -47,7 +49,7 @@
 
 .events__buttons__social {
   margin-top: 5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.9rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -69,6 +69,10 @@
   color: $light-gray;
 }
 
+button:hover {
+  color: $black;
+}
+
 .nav__social__active {
   text-transform: uppercase;
   border: none;

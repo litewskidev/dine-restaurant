@@ -67,10 +67,11 @@
   font-family: $font-text;
   font-size: 1rem;
   color: $light-gray;
-}
 
-button:hover {
-  color: $black;
+  &:hover,
+  &:focus {
+    color: $black;
+  }
 }
 
 .nav__family__active {

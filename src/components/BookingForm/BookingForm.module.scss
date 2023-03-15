@@ -5,18 +5,19 @@
   height: 34.063rem;
   background: $white;
   position: relative;
+  text-align: center;
+  font-size: 1.3rem;
   left: 45.5rem;
   top: -26.5rem;
 
   filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.4));
-  text-align: center;
-  font-size: 1.3rem;
 }
 
 .bookingform__text {
   padding: 2% 10%;
   display: flex;
   flex-direction: column;
+
     input {
     padding: 0 5%;
     height: 5rem;
@@ -36,28 +37,28 @@
   justify-content: space-between;
   align-items: center;
 
-
   input {
-    font-family: $font-text;
+    text-align: center;
     width: 5rem;
     height: 3rem;
     border: none;
     outline: none;
     border-bottom: 1px solid $shuttle-gray;
-    margin: 2% 1%;
-    text-align: center;
+    font-family: $font-text;
     font-size: 1.3rem;
+    margin: 2% 1%;
   }
 
   select {
-    font-family: $font-text;
+    text-align: center;
     height: 3rem;
     width: 5.5rem;
     border: none;
     outline: none;
     border-bottom: 1px solid $shuttle-gray;
-    text-align: center;
+    font-family: $font-text;
     font-size: 1.3rem;
+
     background: url(../../images/icons/icon-arrow.svg) no-repeat;
     background-position-x: 100%;
     background-position-y: 50%;

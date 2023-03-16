@@ -90,3 +90,19 @@
   margin-left: -0.1rem;
   margin-top: 1.26rem;
 }
+
+@media screen and (max-width: 480px) {
+  .highlights__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .highlights__list__el {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

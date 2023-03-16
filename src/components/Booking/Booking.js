@@ -5,6 +5,7 @@ import styles from './Booking.module.scss';
 import pattern__lines from '../../images/patterns/pattern-lines.svg';
 
 const Booking = () => {
+  document.documentElement.scrollTop = 0;
   return(
     <main>
       <div className={styles.booking}>

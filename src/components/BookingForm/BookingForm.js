@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import NumInput from '../NumInput/NumInput';
-import styles from './BookingForm.module.scss';
+import './BookingForm.scss';
 
 const BookingForm = () => {
 
@@ -52,9 +52,9 @@ const BookingForm = () => {
   };
 
   return(
-    <div className={styles.bookingform}>
+    <div className='bookingform'>
       <form onSubmit={reservation}>
-        <div className={styles.bookingform__text}>
+        <div className='bookingform__text'>
           <input
             onChange={e => setName(e.target.value)}
             id='name'
@@ -70,7 +70,7 @@ const BookingForm = () => {
             value={email}
             required />
         </div>
-        <div className={styles.bookingform__numbers}>
+        <div className='bookingform__numbers'>
           <label>Pick a date</label>
           <input
             onChange={e => setMonth(e.target.value)}
@@ -117,16 +117,27 @@ const BookingForm = () => {
             min={0}
             max={59}
             required />
-          <select className={styles.select}
+          <select className='select'
             onChange={e => setMeridiem(e.target.value)}
             id='meridiem'
             value={meridiem}>
-              <option>AM</option>
-              <option>PM</option>
+              <option
+                id='option-1'
+                className={meridiem === "AM" ? "option__active" : ""}>
+                  AM
+              </option>
+              <option
+                id='option-2'
+                className={meridiem === "PM" ? "option__active" : ""}>
+                  PM
+              </option>
           </select>
         </div>
         <NumInput increment={increment} decrement={decrement} people={peopleNum} />
-        <input type='submit' value='Make Reservation' className={styles.black} />
+        <input
+          type='submit'
+          value='Make Reservation'
+          className='black' />
       </form>
     </div>
   );

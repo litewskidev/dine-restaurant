@@ -98,7 +98,7 @@ const BookingForm = () => {
             value={year}
             min={2023}
             required />
-          <p>Pick a time</p>
+          <label>Pick a time</label>
           <input
             onChange={e => setHour(e.target.value)}
             id='hour'

@@ -124,3 +124,27 @@
   background-position-x: 0%;
   background-position-y: 50%;
 }
+
+
+// --------------- MEDIA ---------------
+
+@media screen and (max-width: 480px) {
+  .bookingform {
+    width: 20.438rem;
+    height: 36.563rem;
+    left: 0rem;
+    top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8.6rem;
+  }
+
+  .bookingform__numbers {
+    justify-content: none;
+  }
+
+  label {
+    margin-right: 10rem;
+    margin-top: 2rem;
+  }
+}

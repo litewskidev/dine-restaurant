@@ -16,13 +16,25 @@
   justify-content: space-around;
   align-items: center;
 
-  background: url(../../images/homepage/ready-bg-desktop.jpg);
+  background: url(../../images/homepage/ready-bg-mobile.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+
+// --------------- MEDIA ---------------
 
 @media screen and (max-width: 480px) {
   .footer__content {
-    display: flex;
     flex-direction: column;
     text-align: center;
+    height: 20.5rem;
+    justify-content: center;
+    gap: 1.5rem;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
   }
 }

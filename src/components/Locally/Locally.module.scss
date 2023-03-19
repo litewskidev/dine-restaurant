@@ -44,3 +44,56 @@
   right: -22%;
   top: 39.5%;
 }
+
+
+// --------------- MEDIA ---------------
+
+@media screen and (max-width: 480px) {
+
+  .locally {
+    padding: 0;
+    background: none;
+  }
+
+  .locally__content {
+    flex-direction: column-reverse;
+    padding: 0 5%;
+
+    .locally__description {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 2rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .locally__img {
+    background: url(../../images/homepage/locally-sourced-mobile.jpg) no-repeat;
+    background-position-x: center;
+    width: 100%;
+    max-height: 27.8rem;
+    margin: 0;
+    margin-top: 3.25rem;
+  }
+
+  .pattern {
+    margin: 0 !important;
+  }
+
+  .locally__content{
+    text-align: center;
+  }
+
+  .pattern__lines {
+    display: none;
+  }
+}

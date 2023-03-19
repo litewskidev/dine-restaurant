@@ -94,3 +94,65 @@
       width: 10rem;
     }
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .events__special {
+    margin-top: 1.45rem;
+    background: none;
+    height: 100%;
+    padding-bottom: 7.5rem;
+  }
+
+  .events__content__img__special {
+    background: url(../../images/homepage/special-events-mobile.jpg) no-repeat;
+    background-position-x: center;
+    width: 100%;
+    max-height: 27.8rem;
+
+    .pattern__lines__special {
+      display: none;
+    }
+  }
+
+  .events__content__special {
+    flex-direction: column;
+    padding: 0 5%;
+    text-align: center;
+
+    .events__description__special {
+      margin: 0;
+      padding-top: 1rem;
+      max-width: 22rem;
+
+      h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+
+  .events__buttons__special {
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+
+  .button__line {
+    flex-direction: column-reverse;
+  }
+
+  .button__line img {
+    display: none;
+  }
+}

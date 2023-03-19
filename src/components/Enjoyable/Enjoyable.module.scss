@@ -25,10 +25,53 @@
 }
 
 .enjoy__img {
-  background: url("../../images/homepage/enjoyable-place-desktop.jpg");
+  background: url(../../images/homepage/enjoyable-place-desktop.jpg);
   filter: drop-shadow(0rem 2rem 2rem rgba(0, 0, 0, 0.4));
 
   flex-basis: 33.5rem;
   height: 45rem;
   margin-top: -4.1rem;
+}
+
+
+// --------------- MEDIA ---------------
+
+@media screen and (max-width: 480px) {
+
+  .enjoy {
+    background: none;
+  }
+
+  .enjoy__content {
+    flex-direction: column;
+    padding: 0 5%;
+
+    .enjoy__description {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 2rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .enjoy__img {
+    background: url(../../images/homepage/enjoyable-place-mobile.jpg) no-repeat;
+    background-position-x: center;
+    width: 100%;
+    max-height: 27.8rem;
+    margin-top: -4.45rem;
+  }
+
+  .enjoy__content{
+    text-align: center;
+  }
 }

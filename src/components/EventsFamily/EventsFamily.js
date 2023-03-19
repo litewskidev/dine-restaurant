@@ -10,7 +10,7 @@ const EventsFamily = (props) => {
           <div className='events__content__img__family'>
             <img className='pattern__lines__family' src={pattern__lines} alt='' />
           </div>
-          <div>
+          <div className='events__mobile'>
             <div className='events__description__family'>
               <div>
                 <h2 className='text__L'>Family Gathering</h2>

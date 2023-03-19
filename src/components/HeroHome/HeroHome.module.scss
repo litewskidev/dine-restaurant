@@ -37,3 +37,29 @@
   margin: 0;
   margin-bottom: 2.3rem;
 }
+
+
+// --------------- MEDIA ---------------
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 0 3%;
+    text-align: center;
+    background: url(../../images/homepage/hero-bg-mobile.jpg);
+    background-position: center;
+    min-height: 46.7rem;
+    gap: 1.8rem;
+  }
+
+  .header__title {
+    margin-top: 14.5rem;
+    font-size: 1.9rem;
+  }
+
+  .header__h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.1rem;
+  }
+}

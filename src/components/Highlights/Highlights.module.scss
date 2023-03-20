@@ -94,6 +94,25 @@
 
 // --------------- MEDIA ---------------
 
+@media screen and (max-width: 326px) {
+
+  .highlights__list__el__info {
+    max-width: 16rem !important;
+  }
+
+  .highlights__list__img__1 {
+    width: 15.438rem !important;
+  }
+
+  .highlights__list__img__2 {
+    width: 15.438rem !important;
+  }
+
+  .highlights__list__img__3 {
+    width: 15.438rem !important;
+  }
+}
+
 @media screen and (max-width: 480px) {
 
   .highlights {

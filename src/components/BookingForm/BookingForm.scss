@@ -126,8 +126,52 @@
 
 // --------------- MEDIA ---------------
 
+@media screen and (max-width: 326px) {
+  .bookingform {
+    width: 15.438rem !important;
+  }
+
+  label {
+    margin-right: 3rem !important;
+    margin-top: 2rem;
+  }
+
+  input#day {
+    width: 30%;
+  }
+
+  input#month {
+    width: 30%;
+  }
+
+  input#year {
+    width: 30%;
+  }
+
+  input#hour {
+    width: 30%;
+  }
+
+  input#minute {
+    width: 25%;
+  }
+
+  select#meridiem.select {
+    width: 35%;
+  }
+
+  .bookingform__numbers {
+    margin-bottom: 2.5rem;
+  }
+
+  .black {
+    padding: 1.5rem 2rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+
 @media screen and (max-width: 480px) {
-  
+
   .bookingform {
     width: 20.438rem;
     height: 36.563rem;

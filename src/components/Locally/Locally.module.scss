@@ -13,11 +13,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //padding: 0 10%;
 
   .pattern {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    cursor: default;
   }
 
   .locally__description {
@@ -43,6 +43,7 @@
   position: absolute;
   right: -22%;
   top: 39.5%;
+  cursor: default;
 }
 
 

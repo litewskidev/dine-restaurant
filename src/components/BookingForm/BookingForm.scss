@@ -96,8 +96,6 @@
   appearance: none;
 }
 
-
-
 .black {
   text-transform: uppercase;
   border: none;
@@ -129,6 +127,7 @@
 // --------------- MEDIA ---------------
 
 @media screen and (max-width: 480px) {
+  
   .bookingform {
     width: 20.438rem;
     height: 36.563rem;

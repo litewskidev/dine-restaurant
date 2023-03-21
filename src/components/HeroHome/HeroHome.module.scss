@@ -64,3 +64,18 @@
     margin-bottom: 1.1rem;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .header {
+    text-align: center;
+    background: url(../../images/homepage/hero-bg-tablet.jpg);
+    background-position: center;
+    min-height: 62rem;
+    padding: 0;
+  }
+
+  .header__description {
+    align-items: center;
+  }
+}

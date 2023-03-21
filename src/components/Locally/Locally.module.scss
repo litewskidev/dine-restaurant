@@ -98,3 +98,31 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .locally {
+    background-position: bottom right;
+    background-position-y: 130%;
+    background-position-x: -305%;
+  }
+
+  .locally__content {
+    flex-direction: column-reverse;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .locally__img {
+    background: url(../../images/homepage/locally-sourced-tablet.jpg) no-repeat;
+    background-position-x: center;
+    width: 100%;
+    max-height: 27.8rem;
+    margin-top: -4.45rem;
+  }
+
+  .pattern__lines {
+    right: -10%;
+    top: 50%;
+  }
+}

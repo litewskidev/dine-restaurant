@@ -40,7 +40,7 @@
 // --------------- MEDIA ---------------
 
 @media screen and (max-width: 480px) {
-  
+
   .herobooking {
     text-align: center;
 
@@ -59,6 +59,32 @@
     p {
       font-size: 1rem;
       line-height: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .herobooking {
+    text-align: center;
+
+    h2 {
+      text-align: start;
+      margin-top: 0.45rem;
+      margin-bottom: 0.85rem;
+    }
+  }
+
+  .herobooking__description{
+    h1 {
+      line-height: 2.5rem;
+      margin-top: 3rem;
+    }
+
+    p {
+      line-height: 1.5rem;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 }

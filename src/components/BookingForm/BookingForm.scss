@@ -192,3 +192,20 @@
     margin-top: 2rem;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .bookingform {
+    width: 33.75rem;
+    height: 34.063rem;
+    left: 0rem;
+    top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8.6rem;
+  }
+
+  .black {
+    padding: 1.5rem 8rem !important;
+  }
+}

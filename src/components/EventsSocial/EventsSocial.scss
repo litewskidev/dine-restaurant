@@ -160,3 +160,45 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .events__content__social {
+    flex-direction: column;
+    padding: 0 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .events__content__img__social {
+    background: url(../../images/homepage/social-events-tablet.jpg) no-repeat;
+    background-position-x: center;
+    width: 100%;
+    max-height: 27.8rem;
+  }
+
+  .events__description__social {
+    margin: 0;
+    margin-left: 2.5rem;
+    text-align: center !important;
+    align-items: center !important;
+
+    h2 {
+      margin-top: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+  }
+
+  .events__buttons__social {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .button__line img {
+    display: none;
+  }
+}

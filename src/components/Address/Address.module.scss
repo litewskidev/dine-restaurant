@@ -69,3 +69,12 @@
     margin-bottom: 3rem;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .address__contact {
+    flex-direction: column;
+    text-align: start;
+    gap: 1.8rem;
+  }
+}

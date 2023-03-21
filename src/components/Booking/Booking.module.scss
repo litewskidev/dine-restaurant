@@ -58,3 +58,26 @@
     margin-top: 0.4rem;
   }
 }
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  .booking {
+    background: url(../../images/booking/hero-bg-tablet@2x.jpg) no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+    max-height: 37.5rem;
+    flex-direction: column;
+    padding: 0 5%;
+    justify-content: start;
+  }
+
+  .pattern__lines {
+    display: none;
+  }
+
+  .booking__img {
+    background: none;
+    height: 41.85rem;
+  }
+}

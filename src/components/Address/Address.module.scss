@@ -72,9 +72,21 @@
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 
+  .address {
+    height: 20.5rem
+  }
+
+  .address h2 {
+      font-size: 3rem !important;
+      margin-top: 3rem;
+      //margin-left: 3rem;
+  }
+
   .address__contact {
     flex-direction: column;
     text-align: start;
     gap: 1.8rem;
+    padding: 17% 0;
+    margin-left: -5rem;
   }
 }

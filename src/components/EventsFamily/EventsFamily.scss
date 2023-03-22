@@ -159,6 +159,10 @@
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 
+  .events__family {
+    min-height: 63.5rem;
+  }
+
   .events__content__family {
     flex-direction: column;
     padding: 0 5%;
@@ -172,6 +176,14 @@
     background-position-x: center;
     width: 100%;
     max-height: 27.8rem;
+    margin-top: 1.35rem;
+  }
+
+  .pattern__lines__family {
+    position: absolute;
+    left: 0.1rem !important;
+    top: -2.4rem;
+    cursor: default;
   }
 
   .events__description__family {
@@ -184,13 +196,17 @@
       margin-top: 0 !important;
       margin-bottom: 1rem !important;
     }
+
+    p {
+      margin-bottom: 3.8rem;
+    }
   }
 
   .events__buttons__family {
     display: flex;
     flex-direction: row;
     margin: 0;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     max-width: 100%;
   }
 

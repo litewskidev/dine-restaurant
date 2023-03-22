@@ -210,13 +210,34 @@
 
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 
+  .highlights {
+    padding: o 12%;
+    min-height: 55.7rem;
+  }
+
   .highlights__content {
     flex-direction: column;
+    //gap: 4rem;
   }
 
   .highlights__description {
     text-align: center;
+    margin: 0;
+    max-width: 30rem;
+
+    h2 {
+      margin: 0;
+      margin-top: 2rem;
+
+    }
+
+    p {
+      margin: 0;
+      margin-top: 2rem;
+      margin-bottom: 3.3rem;
+    }
   }
+
 
   .highlights__list {
     margin: 0;

@@ -84,13 +84,13 @@
 
   .enjoy {
     background-position: top left;
-    background-position-y: 50%;
-    background-position-x: 400%;
+    background-position-y: 37%;
+    background-position-x: 406%;
   }
 
   .enjoy__content {
     flex-direction: column;
-    padding: 0 5%;
+    padding: 0 12.5%;
     text-align: center;
   }
 
@@ -99,6 +99,23 @@
     background-position-x: center;
     width: 100%;
     max-height: 27.8rem;
-    margin-top: -4.45rem;
+    margin-top: -6rem;
+  }
+
+  .enjoy__description {
+    margin-top: -2.1rem;
+
+    h2 {
+      font-size: 3rem;
+      line-height: 2.9rem;
+      margin-top: 2.4rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-top: 1.8rem;
+    }
   }
 }

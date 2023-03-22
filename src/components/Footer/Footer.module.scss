@@ -44,6 +44,15 @@
 
   .footer__content {
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
+    height: 17rem;
+
+    background: url(../../images/homepage/ready-bg-tablet.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
   }
 }

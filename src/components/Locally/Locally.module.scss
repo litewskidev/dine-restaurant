@@ -102,14 +102,16 @@
 @media screen and (min-width: 481px) and (max-width: 1024px) {
 
   .locally {
+    min-height: 46rem;
+    margin-top: 10.8rem;
     background-position: bottom right;
-    background-position-y: 130%;
-    background-position-x: -305%;
+    background-position-y: 96.5%;
+    background-position-x: -308%;
+    padding: 0 12.5%
   }
 
   .locally__content {
     flex-direction: column-reverse;
-    padding: 0 5%;
     text-align: center;
   }
 
@@ -119,10 +121,29 @@
     width: 100%;
     max-height: 27.8rem;
     margin-top: -4.45rem;
+    margin-right: 0;
   }
 
   .pattern__lines {
     right: -10%;
-    top: 50%;
+    top: 51.2%;
+  }
+
+  .locally__description {
+    margin-top: -0.8rem;
+
+    h2 {
+      font-size: 3rem;
+      line-height: 2.9rem;
+      margin-top: -0.7rem !important;
+      margin-bottom: 1rem !important;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      margin-top: 1.9rem;
+      min-width: 30rem;
+    }
   }
 }

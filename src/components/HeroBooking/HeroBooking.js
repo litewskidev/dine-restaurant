@@ -4,9 +4,11 @@ import styles from './HeroBooking.module.scss';
 const HeroBooking = () => {
   return(
     <div className={styles.herobooking}>
-      <Link className={styles.link} to='/'>
-      <h2 className={styles.herobooking__title}>dine</h2>
-      </Link>
+      <div className={styles.herobooking__logo}>
+        <Link className={styles.link} to='/'>
+            <h2 className={styles.herobooking__title}>dine</h2>
+        </Link>
+      </div>
       <div className={styles.herobooking__description}>
         <h1 className='text__L'>Reservations</h1>
         <p className='p__text'>We can’t wait to host you.

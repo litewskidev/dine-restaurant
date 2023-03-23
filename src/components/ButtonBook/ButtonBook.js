@@ -3,8 +3,8 @@ import './ButtonBook.scss';
 
 const ButtonBook = props => {
   return(
-    <Link to='/booking'>
-      <button className={`btn ${props.class}`}>{props.children}</button>
+    <Link className='link' to='/booking'>
+      <p className={`btn ${props.class}`}>{props.children}</p>
     </Link>
   );
 };

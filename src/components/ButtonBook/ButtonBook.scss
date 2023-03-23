@@ -1,9 +1,14 @@
 @import '../../styles/settings.scss';
 
+a:link {
+  text-decoration: none !important;
+}
+
 .btn {
   text-transform: uppercase;
   border: none;
   padding: 1rem 1.3rem;
+  display: inline;
 }
 
 .black {

@@ -2,7 +2,7 @@
 
 .highlights {
   max-width: 100%;
-  min-height: 48.9rem;
+  min-height: 48.8rem;
   display: grid;
   align-items: center;
   background-color: $cod-gray;
@@ -19,6 +19,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 11.6%;
+  margin-bottom: 1.7rem;
 }
 
 .highlights__description {
@@ -35,6 +36,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 8.9rem;
+  margin-right: -1.7rem;
 }
 
 .icon {
@@ -50,7 +52,7 @@
 }
 
 .highlights__list__el__info {
-  width: 24rem;
+  width: 22rem;
   display: grid;
   align-items: center;
   margin-right: 1.3rem;

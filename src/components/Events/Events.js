@@ -11,19 +11,43 @@ const Events = () => {
     const special = document.querySelector('#event-special');
     const social = document.querySelector('#event-social');
 
-    if(id === 'btn-family'){
+    if(id === 'btn-family-fam'){
+      family.className = '';
+      special.className = 'event__display';
+      social.className = 'event__display';
+    } else if (id === 'btn-family-spec') {
+      family.className = '';
+      special.className = 'event__display';
+      social.className = 'event__display';
+    }  else if (id === 'btn-family-soc') {
       family.className = '';
       special.className = 'event__display';
       social.className = 'event__display';
     }
 
-    if(id === 'btn-special'){
+    if(id === 'btn-special-fam'){
+      family.className = 'event__display';
+      special.className = '';
+      social.className = 'event__display';
+    } else if (id === 'btn-special-spec') {
+      family.className = 'event__display';
+      special.className = '';
+      social.className = 'event__display';
+    } else if (id === 'btn-special-soc') {
       family.className = 'event__display';
       special.className = '';
       social.className = 'event__display';
     }
 
-    if(id === 'btn-social') {
+    if(id === 'btn-social-fam') {
+      family.className = 'event__display';
+      special.className = 'event__display';
+      social.className = '';
+    } else if (id === 'btn-social-spec') {
+      family.className = 'event__display';
+      special.className = 'event__display';
+      social.className = '';
+    } else if (id === 'btn-social-soc') {
       family.className = 'event__display';
       special.className = 'event__display';
       social.className = '';

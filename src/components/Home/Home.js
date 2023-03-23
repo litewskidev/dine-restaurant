@@ -7,14 +7,14 @@ import Locally from '../Locally/Locally';
 
 const Home = () => {
   return(
-    <main>
+    <section>
       <HeroHome />
       <Enjoyable />
       <Locally />
       <Highlights />
       <Events />
       <Footer />
-    </main>
+    </section>
   );
 };
 

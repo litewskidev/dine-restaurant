@@ -19,12 +19,12 @@ const EventsSpecial = (props) => {
             </div>
             <ButtonBook class='black'>Book a table</ButtonBook>
             <div className='events__buttons__special'>
-              <button id='btn-family' onClick={props.click} className='nav__special'>Family Gathering</button>
+              <button id='btn-family-spec' onClick={props.click} className='nav__special'>Family Gathering</button>
               <div className='button__line'>
                 <img src={pattern__lines} alt='' />
-                <button id='btn-special' onClick={props.click} className='nav__special__active'>Special Events</button>
+                <button id='btn-special-spec' onClick={props.click} className='nav__special__active'>Special Events</button>
               </div>
-              <button id='btn-social' onClick={props.click} className='nav__special'>Social Events</button>
+              <button id='btn-social-spec' onClick={props.click} className='nav__special'>Social Events</button>
             </div>
           </div>
         </div>

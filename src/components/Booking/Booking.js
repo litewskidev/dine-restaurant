@@ -8,7 +8,7 @@ import ButtonBook from '../ButtonBook/ButtonBook';
 const Booking = () => {
   document.documentElement.scrollTop = 0;
   return(
-    <main>
+    <section>
       <div className={styles.booking}>
         <HeroBooking />
         <div className={styles.button__mobile}>
@@ -20,7 +20,7 @@ const Booking = () => {
         <BookingForm />
       </div>
       <Address />
-    </main>
+    </section>
   );
 };
 

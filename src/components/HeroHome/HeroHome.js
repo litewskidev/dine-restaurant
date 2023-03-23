@@ -3,7 +3,7 @@ import styles from './HeroHome.module.scss';
 
 const HeroHome = () => {
   return(
-    <header className={styles.header}>
+    <div className={styles.header}>
       <div className={styles.header__title}>
         <h2>dine</h2>
       </div>
@@ -20,7 +20,7 @@ const HeroHome = () => {
           <ButtonBook class='white'>Book a table</ButtonBook>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

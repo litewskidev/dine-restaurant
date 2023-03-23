@@ -8,10 +8,10 @@ const Highlights = () => {
         <div className={styles.highlights__description}>
           <img className={styles.pattern} src={pattern} alt='' />
           <div>
-            <h2 className='text__L'>
+            <h3 className='text__L'>
               A few highlights from<br />
               our menu
-            </h2>
+            </h3>
             <p className='p__text'>
               We cater for all dietary requirements, but here’s a glimpse
               at some of our diner’s favorites. Our menu is revamped every season.

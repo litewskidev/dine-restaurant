@@ -21,10 +21,10 @@ const EventsFamily = (props) => {
             <div className='events__buttons__family'>
               <div className='button__line'>
                 <img src={pattern__lines} alt='' />
-                <button id='btn-family' onClick={props.click} className='nav__family__active'>Family Gathering</button>
+                <button id='btn-family-fam' onClick={props.click} className='nav__family__active'>Family Gathering</button>
               </div>
-              <button id='btn-special' onClick={props.click} className='nav__family'>Special Events</button>
-              <button id='btn-social' onClick={props.click} className='nav__family'>Social Events</button>
+              <button id='btn-special-fam' onClick={props.click} className='nav__family'>Special Events</button>
+              <button id='btn-social-fam' onClick={props.click} className='nav__family'>Social Events</button>
             </div>
           </div>
         </div>

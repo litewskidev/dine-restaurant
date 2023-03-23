@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dine-restaurant/static/css/main.1cb260c2.css",
+    "main.css": "/dine-restaurant/static/css/main.f80f47d8.css",
     "main.js": "/dine-restaurant/static/js/main.e374b9b7.js",
     "static/media/hero-bg-tablet@2x.jpg": "/dine-restaurant/static/media/hero-bg-tablet@2x.c0dbf4f19cbd98b7413a.jpg",
     "static/media/enjoyable-place-desktop.jpg": "/dine-restaurant/static/media/enjoyable-place-desktop.06399aa5ebbf3c5b8582.jpg",
@@ -18,6 +18,7 @@
     "static/media/social-events-desktop.jpg": "/dine-restaurant/static/media/social-events-desktop.e78fd92c8902cb2e0e44.jpg",
     "static/media/locally-sourced-desktop.jpg": "/dine-restaurant/static/media/locally-sourced-desktop.957d3e79f314ce6c5bdf.jpg",
     "static/media/family-gathering-mobile.jpg": "/dine-restaurant/static/media/family-gathering-mobile.10e6f4edd97d1bfa2e29.jpg",
+    "static/media/ready-bg-desktop.jpg": "/dine-restaurant/static/media/ready-bg-desktop.7404dbadd9d5df856284.jpg",
     "static/media/hero-bg-tablet.jpg": "/dine-restaurant/static/media/hero-bg-tablet.eb68d55ad03563e8b064.jpg",
     "static/media/special-events-mobile.jpg": "/dine-restaurant/static/media/special-events-mobile.3665c5e0f83b107a95a5.jpg",
     "static/media/ready-bg-tablet.jpg": "/dine-restaurant/static/media/ready-bg-tablet.cb140480e3747fcc9b78.jpg",
@@ -40,11 +41,11 @@
     "static/media/icon-check.svg": "/dine-restaurant/static/media/icon-check.4c96871bb2a6f92bce92.svg",
     "static/media/icon-arrow-down.svg": "/dine-restaurant/static/media/icon-arrow-down.bdb59c530a13c1c16390.svg",
     "static/media/icon-minus.svg": "/dine-restaurant/static/media/icon-minus.a1f316e703a5cea62cb6cc8823797a0a.svg",
-    "main.1cb260c2.css.map": "/dine-restaurant/static/css/main.1cb260c2.css.map",
+    "main.f80f47d8.css.map": "/dine-restaurant/static/css/main.f80f47d8.css.map",
     "main.e374b9b7.js.map": "/dine-restaurant/static/js/main.e374b9b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cb260c2.css",
+    "static/css/main.f80f47d8.css",
     "static/js/main.e374b9b7.js"
   ]
 }

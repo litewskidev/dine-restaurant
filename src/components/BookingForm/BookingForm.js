@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import NumInput from '../NumInput/NumInput';
 import './BookingForm.scss';
+import Swal from 'sweetalert2';
 
 const BookingForm = () => {
 
@@ -14,7 +15,7 @@ const BookingForm = () => {
   const [meridiem, setMeridiem] = useState('AM');
   const [peopleNum, setPeopleNum] = useState(4);
 
-  const minuteFormat = (minute < 10) ? minute + '0' : minute;
+  const minuteFormat = (minute < 10) ? '0' + minute : minute;
 
   const summary = {
     Name: name,
@@ -39,6 +40,21 @@ const BookingForm = () => {
   const reservation = (e) => {
     e.preventDefault();
     console.log(summary);
+    Swal.fire({
+      icon: 'success',
+      timer: 9000,
+      showConfirmButton: false,
+      timerProgressBar: true,
+      title:
+          `Your reservation is CONFIRMED.\n
+          ----------------------------\n
+          Name: ${summary.Name}\n
+          Date: ${summary.Date}\n
+          Time: ${summary.Time}\n
+          People: ${summary.People}\n
+          Email: ${summary.Email}\n
+          -----------------------------\n
+          See You Soon!`});
 
     setName('');
     setEmail('');

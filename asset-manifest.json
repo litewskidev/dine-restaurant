@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dine-restaurant/static/css/main.38795440.css",
+    "main.css": "/dine-restaurant/static/css/main.8619ca73.css",
     "main.js": "/dine-restaurant/static/js/main.f3b1a6f5.js",
     "static/media/hero-bg-tablet@2x.jpg": "/dine-restaurant/static/media/hero-bg-tablet@2x.c0dbf4f19cbd98b7413a.jpg",
     "static/media/enjoyable-place-desktop.jpg": "/dine-restaurant/static/media/enjoyable-place-desktop.06399aa5ebbf3c5b8582.jpg",
@@ -41,11 +41,11 @@
     "static/media/icon-check.svg": "/dine-restaurant/static/media/icon-check.4c96871bb2a6f92bce92.svg",
     "static/media/icon-arrow-down.svg": "/dine-restaurant/static/media/icon-arrow-down.bdb59c530a13c1c16390.svg",
     "static/media/icon-minus.svg": "/dine-restaurant/static/media/icon-minus.a1f316e703a5cea62cb6cc8823797a0a.svg",
-    "main.38795440.css.map": "/dine-restaurant/static/css/main.38795440.css.map",
+    "main.8619ca73.css.map": "/dine-restaurant/static/css/main.8619ca73.css.map",
     "main.f3b1a6f5.js.map": "/dine-restaurant/static/js/main.f3b1a6f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.38795440.css",
+    "static/css/main.8619ca73.css",
     "static/js/main.f3b1a6f5.js"
   ]
 }

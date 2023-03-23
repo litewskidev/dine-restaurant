@@ -12,7 +12,7 @@ const Booking = () => {
       <div className={styles.booking}>
         <HeroBooking />
         <div className={styles.button__mobile}>
-          <ButtonBook class='white'>reserve place</ButtonBook>
+          <p>reserve place</p>
         </div>
       </div>
       <div className={styles.booking__img}>

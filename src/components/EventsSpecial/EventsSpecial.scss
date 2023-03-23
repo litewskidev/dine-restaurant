@@ -7,7 +7,8 @@
 .events__special {
   padding: 10% 0;
   max-width: 100%;
-  height: 56.7rem;
+  height: 56rem;
+  color: $mirage;
 
   background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
   background-position: top left;
@@ -173,7 +174,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: $mirage;
   }
 
   .events__content__img__special {

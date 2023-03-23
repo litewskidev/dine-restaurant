@@ -55,7 +55,20 @@
   .button__mobile {
     display: flex;
     justify-content: center;
-    margin-top: 0.4rem;
+    margin-top: -0.6rem;
+    cursor: default;
+
+    p {
+      text-transform: uppercase;
+      background: transparent;
+      border: 1px solid $white;
+      color: $white;
+      padding: 1.5rem 3.5rem;
+      word-spacing: 3px;
+      letter-spacing: 2px;
+      font-family: $font-text;
+      font-size: 1rem;
+    }
   }
 }
 

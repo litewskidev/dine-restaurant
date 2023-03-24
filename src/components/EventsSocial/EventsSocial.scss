@@ -7,12 +7,13 @@
 .events__social {
   padding: 10% 0;
   max-width: 100%;
-  height: 56.2rem;
+  height: 56.25rem;
   color: $mirage;
 
   background: url(../../images/patterns/pattern-curve-top-right.svg) no-repeat;
   background-position: top left;
-  background-position-x: -24rem;
+  background-position-x: -22.3rem;
+  background-position-y: -1rem;
 }
 
 .events__content__img__social {
@@ -25,7 +26,7 @@
   .pattern__lines__social {
     position: absolute;
     left: -3rem;
-    top: -2.7rem;
+    top: -2.6rem;
     cursor: default;
   }
 }
@@ -124,6 +125,7 @@
     flex-direction: column;
     padding: 0 5%;
     text-align: center;
+    margin-right: 0;
 
     .events__description__social {
       margin: 0;
@@ -174,6 +176,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-right: 0;
   }
 
   .events__content__img__social {
